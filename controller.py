@@ -15,7 +15,7 @@ def authObject():
     return spotipy.oauth2.SpotifyOAuth(scope='user-read-currently-playing playlist-modify-private user-library-read playlist-modify-public',
             client_id="12fe8879174845bf94e9de513fe889c7",
             client_secret="15ffde4f252e482488d723204e91a21c",
-            redirect_uri='http://127.0.0.1:5000/',
+            redirect_uri='https://yt-2-spotify-add42397dc7c.herokuapp.com/',
             cache_path=session_cache_path(),show_dialog=True
     )
 
